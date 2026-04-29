@@ -1,0 +1,11 @@
+[package]
+name = "ping-pong-channels-rust"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "beam"
+path = "src/beam.rs"
+
+[dependencies]
+crossbeam = "0.8.4"
